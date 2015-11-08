@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\USER -I..\FWlib\inc -I..\FWlib\src 
+-I "D:\Keil ARM\ARM\RV31\INC" 
+-I "D:\Keil ARM\ARM\CMSIS\Include" 
+-I "D:\Keil ARM\ARM\Inc\ST\STM32F10x" 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\laser_handle.o" --omf_browse "..\Output\laser_handle.crf" --depend "..\Output\laser_handle.d" "Laser_handle.c"
